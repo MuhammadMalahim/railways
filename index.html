@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Railways Game</title>
+</head>
+
+<body>
+    <div id="main-menu">
+        <div id="menu-title">
+            <h1>RAILWAYS</h1>
+            <div id="message"></div>
+        </div>
+        <div id="menu-main">
+            <input id="menu-name-input" type="text" placeholder="WHO ARE YOU?">
+            <div id="menu-select-difficulty">
+                <p class="menu-subtitle">SET THE DIFFICULTY!</p>
+                <div class="difficulty-buttons">
+                    <button id="easy-button" class="menu-button difficulty">5 x 5</button>
+                    <button id="hard-button" class="menu-button difficulty">7 x 7</button>
+                </div>
+            </div>
+            <button id="rules-button" class="menu-button large ">RULES</button>
+            <button id="game-button" class="menu-button large">START GAME</button>
+            <button id="leader-board-button" class="menu-button large">SHOW LEADERBOARD</button>
+        </div>
+    </div>
+
+    <div id="leader-board-div">
+        <table id="leader-board-table">
+            <tr>
+                <th>Player</th>
+                <th>Time</th>
+                <th>Difficulty</th>
+            </tr>
+        </table>
+        <button class="menu-button large" id="back-button-3">BACK</button>
+        <button class="menu-button large" id="reset-leader-board">RESET</button>
+
+    </div>
+
+    <div id="rules">
+        
+        <h1>Game Rules</h1>
+        <h2>Overview</h2>
+        <p>The game is played on a square grid of various sizes, where the goal is to create a continuous
+            circular railway line that reaches every place where the train can travel.</p>
+
+        <h2>Placing Railway Elements</h2>
+        <ul>
+            <li>Left Click: to place tile or toggle between straight and curved rail.</li>
+            <li>Right Click: to rotate the tile (except oasis and empty tile).</li>
+        </ul>
+        <h2>End of the Game</h2>
+        <p>The game ends when the player correctly completes the puzzle according to the given rules<br>
+            During the validation of the puzzle's completion, the following elements need to be checked:</p>
+        <ul>
+            <li>Each cell has two exit points, and the train can enter each neighboring cell from the correct
+                direction.</li>
+            <li>Every cell that needs to be touched is touched.</li>
+            <li>Every cell where no track can be placed remains empty.</li>
+        </ul>
+        <button class="menu-button large" id="back-button">BACK</button>
+    </div>
+
+    <div id="start-game" class="box">
+        <div id="left-side">
+            <button class="menu-button large" id="back-button-2">BACK</button>
+            <h1 id="game-title">RAILWAYS</h1>
+            <div>
+                <h2>Player Name:</h2>
+                <p id="player-name"></p>
+            </div>
+            <div>
+                <h2>Time Elapsed:</h2>
+                <p id="time-counter"></p>
+            </div>
+            <div>
+                <p id="win-message"></p>
+            </div>
+            <div id="leader-board-button-2-div">
+                <button id="leader-board-button-2" class="menu-button large">SHOW LEADERBOARD</button>
+            </div>
+            
+        </div>
+
+        <div id="center" class="box">
+            <table id="game-table">
+            </table>
+        </div>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,213 @@
+/* General Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f1e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h2 {
+    color: rgb(99, 152, 72);}
+
+#main-menu {
+    display: block;
+    text-align: center;
+    padding: 2rem 12rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(189, 158, 98);
+    margin: 0 0 1.5rem;
+}
+
+#game-title {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(189, 158, 98);
+    margin: 0 0 1.5rem;
+    text-align: center;
+}
+
+#menu-name-input {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    width: 80%;
+    max-width: 400px;
+    border: 2px solid rgb(189, 158, 98);
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.menu-subtitle {
+    font-size: 1.2rem;
+    color: rgb(128, 128, 128);
+    margin: 1rem 0 0.5rem;
+}
+
+.difficulty-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Button Styles */
+.menu-button {
+    background-color: rgb(235, 239, 214);
+    color: rgb(78, 128, 53);
+    font-weight: bold;
+    font-size: medium;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid rgb(78, 128, 53);
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.menu-button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu-button.difficulty {
+    font-size: 1.1rem;
+    padding: 0.7rem 1.5rem;
+}
+
+.menu-button.large {
+    font-size: 1.2rem;
+    width: 80%;
+    max-width: 250px;
+    margin-bottom: 1rem;
+}
+
+.menu-button.selected {
+    background-color: rgb(78, 128, 53);
+    color: #ffffff;
+    border-color: rgb(78, 128, 53);
+}
+
+#rules {
+    display: none; 
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    margin-top: 20%;
+}
+
+li {
+    text-align: justify;
+}
+
+#start-game {
+    display: none; 
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 5%;
+    margin-top: 5%;
+}
+
+.box {
+    display: inline-block;
+}
+
+table {
+    border: 12px solid #b08d5f; 
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border-spacing: 0;
+    background-color: #f7f3e9;
+}
+
+#left-side {
+    border: 6px  #dfc892;
+    border-style: dotted; 
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    border-spacing: 0;
+    background-color: #f7f3e9;
+    margin-right: 20px;
+}
+
+#right-side {
+    display: none;
+    border: 6px  #dfc892;
+    border-style: dotted; 
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
+    border-spacing: 0;
+    background-color: #f7f3e9;
+    margin-right: 20px;
+}
+
+
+
+#player-name {
+    color:  #b08d5f;
+    text-transform: uppercase;
+}
+
+#time-counter {
+    color:  #b08d5f;
+}
+
+#win-message {
+    font-size: 24px; 
+    font-weight: bold;
+    animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    25% { color: blue; }
+    50% { color: green; }
+    75% { color: purple; }
+    100% { color: red; } 
+}
+
+#leader-board-div {
+    display: none;
+}
+
+#leader-board-div {
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#leader-board-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#leader-board-table th, #leader-board-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    color: #333;
+}
+
+#leader-board-button-2-div {
+    display: none;
+}
