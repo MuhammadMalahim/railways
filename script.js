@@ -35,26 +35,26 @@ class Tile {
 }
 
 const tiles = {
-    bridge_rail_1: new Tile("bridge_rail", "pics/tiles/bridge_rail.png", 1),
-    bridge_rail_2: new Tile("bridge_rail", "pics/tiles/bridge_rail.png", 2),
-    bridge_1: new Tile("bridge", "pics/tiles/bridge.png", 1),
-    bridge_2: new Tile("bridge", "pics/tiles/bridge.png", 2),
-    curve_rail_1: new Tile("curve_rail", "pics/tiles/curve_rail.png", 1),
-    curve_rail_2: new Tile("curve_rail", "pics/tiles/curve_rail.png", 2),
-    curve_rail_3: new Tile("curve_rail", "pics/tiles/curve_rail.png", 3),
-    curve_rail_4: new Tile("curve_rail", "pics/tiles/curve_rail.png", 4),
-    empty: new Tile("empty", "pics/tiles/empty.png", 0),
-    mountain_rail_1: new Tile("mountain_rail", "pics/tiles/mountain_rail.png", 1),
-    mountain_rail_2: new Tile("mountain_rail", "pics/tiles/mountain_rail.png", 2),
-    mountain_rail_3: new Tile("mountain_rail", "pics/tiles/mountain_rail.png", 3),
-    mountain_rail_4: new Tile("mountain_rail", "pics/tiles/mountain_rail.png", 4),
-    mountain_1: new Tile("mountain", "pics/tiles/mountain.png", 1),
-    mountain_2: new Tile("mountain", "pics/tiles/mountain.png", 2),
-    mountain_3: new Tile("mountain", "pics/tiles/mountain.png", 3),
-    mountain_4: new Tile("mountain", "pics/tiles/mountain.png", 4),
-    oasis: new Tile("oasis", "pics/tiles/oasis.png", 0),
-    straight_rail1: new Tile("straight_rail", "pics/tiles/straight_rail.png", 1),
-    straight_rail2: new Tile("straight_rail", "pics/tiles/straight_rail.png", 2)
+    bridge_rail_1: new Tile("bridge_rail", "assets/tiles/bridge_rail.png", 1),
+    bridge_rail_2: new Tile("bridge_rail", "assets/tiles/bridge_rail.png", 2),
+    bridge_1: new Tile("bridge", "assets/tiles/bridge.png", 1),
+    bridge_2: new Tile("bridge", "assets/tiles/bridge.png", 2),
+    curve_rail_1: new Tile("curve_rail", "assets/tiles/curve_rail.png", 1),
+    curve_rail_2: new Tile("curve_rail", "assets/tiles/curve_rail.png", 2),
+    curve_rail_3: new Tile("curve_rail", "assets/tiles/curve_rail.png", 3),
+    curve_rail_4: new Tile("curve_rail", "assets/tiles/curve_rail.png", 4),
+    empty: new Tile("empty", "assets/tiles/empty.png", 0),
+    mountain_rail_1: new Tile("mountain_rail", "assets/tiles/mountain_rail.png", 1),
+    mountain_rail_2: new Tile("mountain_rail", "assets/tiles/mountain_rail.png", 2),
+    mountain_rail_3: new Tile("mountain_rail", "assets/tiles/mountain_rail.png", 3),
+    mountain_rail_4: new Tile("mountain_rail", "assets/tiles/mountain_rail.png", 4),
+    mountain_1: new Tile("mountain", "assets/tiles/mountain.png", 1),
+    mountain_2: new Tile("mountain", "assets/tiles/mountain.png", 2),
+    mountain_3: new Tile("mountain", "assets/tiles/mountain.png", 3),
+    mountain_4: new Tile("mountain", "assets/tiles/mountain.png", 4),
+    oasis: new Tile("oasis", "assets/tiles/oasis.png", 0),
+    straight_rail1: new Tile("straight_rail", "assets/tiles/straight_rail.png", 1),
+    straight_rail2: new Tile("straight_rail", "assets/tiles/straight_rail.png", 2)
 }
 
 const level_e1 = [
