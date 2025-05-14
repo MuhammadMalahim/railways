@@ -34,5 +34,5 @@ The project includes:
 
 ## Screenshots  
 
-![Main Menu](https://github.com/MuhammadMalahim/railways/blob/main/screenshots/main_menu.png?raw=true))
-![Game Screen](https://github.com/MuhammadMalahim/railways/blob/main/screenshots/game_screen.png?raw=true))
+![Main Menu](https://github.com/MuhammadMalahim/railways/blob/main/screenshots/main_menu.png?raw=true)
+![Game Screen](https://github.com/MuhammadMalahim/railways/blob/main/screenshots/game_screen.png?raw=true)
